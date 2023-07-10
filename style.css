@@ -46,7 +46,6 @@
 }
 /* Navigation related styles ends */
 
-
 /* Banner related styles */
 .banner-img {
   width: 42%;
@@ -60,7 +59,8 @@
   background-color: rgba(229, 84, 115, 0.1);
 }
 
-.banner-heading h1, p,
+.banner-heading h1,
+p,
 button {
   margin-top: 1em;
 }
@@ -90,16 +90,68 @@ button {
 }
 /* Banner related styles ends */
 
-
 /* Feature related styles */
+
+.feature {
+    margin-top: 7em;
+}
+
+.feature h2 {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0.8em;
+}
+
+.feature-desc {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+    color: #27272799;
+    font-size: 0.8em;
+}
+
 .feature-container {
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .flower-box {
-    margin: 1em;
-    width: 230px;
-    height: 300px;
-    background-color: #272727;
-    border-radius: 120px 120px 0px 0px;
+  margin: 0.5em;
+  padding: 1em 1em 0 1em;
+  width: 250px;
+  height: 310px;
+  background-color: #272727;
+  border-radius: 300px 300px 0px 0px;
+}
+
+.feature-flower {
+  width: 80%;
+}
+
+.box-pink {
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.box-blue {
+  background-color: rgba(5, 151, 160, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-green {
+  background-color: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.full-box p {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
 }
