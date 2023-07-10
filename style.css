@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(229, 33, 75, 0.308);
+    background-color: rgba(229, 84, 115, 0.193);
     padding: 0.4em;
 }
 
@@ -21,6 +21,7 @@
 .menu-container li {
     list-style-type: none;
 }
+
 
 .nav-item {
     text-decoration: none;
@@ -38,4 +39,19 @@
 .logo {
     width: 33%;
     margin-right: 0.4em;
+}
+/* Navigation related styles ends */
+
+
+/* Banner related styles */
+.banner-img {
+    width: 35%;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4em 4em 0 4em;
+    background-color: rgba(229, 84, 115, 0.10);
 }
