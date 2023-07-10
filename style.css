@@ -4,3 +4,38 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
+/* Navigation related styles */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229, 33, 75, 0.308);
+    padding: 0.4em;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-container li {
+    list-style-type: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 1em;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 33%;
+    margin-right: 0.4em;
+}
