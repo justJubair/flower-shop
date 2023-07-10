@@ -46,9 +46,10 @@
 }
 /* Navigation related styles ends */
 
+
 /* Banner related styles */
 .banner-img {
-  width: 40%;
+  width: 42%;
 }
 
 .banner-container {
@@ -59,8 +60,7 @@
   background-color: rgba(229, 84, 115, 0.1);
 }
 
-.banner-heading h1,
-p,
+.banner-heading h1, p,
 button {
   margin-top: 1em;
 }
@@ -87,4 +87,19 @@ button {
   background: #e55473;
   border: none;
   color: #fff;
+}
+/* Banner related styles ends */
+
+
+/* Feature related styles */
+.feature-container {
+    display: flex;
+}
+
+.flower-box {
+    margin: 1em;
+    width: 230px;
+    height: 300px;
+    background-color: #272727;
+    border-radius: 120px 120px 0px 0px;
 }
