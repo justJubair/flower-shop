@@ -5,6 +5,12 @@
   font-family: "Lato", sans-serif;
 }
 
+
+/* common shared styles */
+.color-pink {
+  color: #e55473;
+}
+
 /* Navigation related styles */
 .nav-container {
   display: flex;
@@ -174,6 +180,49 @@ button {
 }
 
 .support-img {
-  width: 25%;
+  width: 30%;
+}
+
+.support-image {
+  width: 50%;
+}
+
+
+.support-desc {
+  font-weight: 700;
+  font-size: 0.8em;
 }
 /* support banner related styles ends */
+
+
+/* discount banner related styles  */
+.discount-img {
+  width: 23%;
+}
+
+.discount-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 4em;
+  padding: 4em 6em;
+}
+
+.discount-content {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.discount-title {
+  font-weight: 800;
+}
+
+.discount-desc {
+  color: #27272799;
+  margin-bottom: 0.5em;
+}
+/* discount banner related styles ends  */
+
