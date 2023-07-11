@@ -54,7 +54,7 @@
 
 /* Banner related styles */
 .banner-img {
-  width: 42%;
+  width: 44%;
 }
 
 .banner-container {
@@ -296,3 +296,24 @@ button {
   color: #27272799;
 }
 /* deal banner related styles ends*/
+
+
+/* footer related styles */
+.footer-container {
+  margin-top: 4em;
+  padding: 4em 5em;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-desc {
+  width: 50%;
+  margin: auto;
+  margin-top: 1em;
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.40);
+}
