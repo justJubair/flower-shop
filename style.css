@@ -8,7 +8,12 @@
 
 /* common shared styles */
 .color-pink {
-  color: #e55473;
+  color: #e8214c;
+}
+
+.btn:hover {
+  background-color: #e52e56;
+  cursor: pointer;
 }
 
 /* Navigation related styles */
@@ -93,6 +98,7 @@ button {
   background: #e55473;
   border: none;
   color: #fff;
+  transition: all ease-in-out 0.1s;
 }
 /* Banner related styles ends */
 
@@ -312,6 +318,16 @@ button {
   margin: auto;
   margin-top: 1em;
   color: rgba(255, 255, 255, 0.90);
+}
+
+.social-icons > i {
+  margin: 1.2em 1.5em 0em 0;
+  transition: all ease-in-out 0.1s;
+}
+
+.social-icons > i:hover {
+  color: rgba(255, 255, 255, 0.40);
+  cursor: pointer;
 }
 
 .copyright {
