@@ -90,25 +90,24 @@ button {
 }
 /* Banner related styles ends */
 
-
 /* Feature related styles */
 .feature {
-    margin-top: 7em;
+  margin-top: 7em;
 }
 
 .feature h2 {
-    text-align: center;
-    font-weight: 800;
-    margin-bottom: 0.8em;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 0.8em;
 }
 
 .feature-desc {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 2em;
-    text-align: center;
-    color: #27272799;
-    font-size: 0.8em;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2em;
+  text-align: center;
+  color: #27272799;
+  font-size: 0.8em;
 }
 
 .feature-container {
@@ -151,8 +150,30 @@ button {
 }
 
 .full-box p {
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
 }
 /* Feature related styles ends */
+
+/* support banner related styles */
+.support-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+}
+
+.support-item {
+  padding: 2em;
+  text-align: center;
+}
+
+.support-img {
+  width: 25%;
+}
+/* support banner related styles ends */
