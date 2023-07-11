@@ -256,3 +256,43 @@ button {
   margin-bottom: 3em;
 }
 /* instagram banner related styles ends */
+
+
+/* deal banner related styles */
+.deal-banner-container {
+  padding: 5em 10em;
+  width: 85%;
+  margin: auto;
+  margin-top: 5em;
+  background-image: url('assets/Rectangle\ 9.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.deal-content {
+  text-align: center;
+}
+
+.email-input {
+  width: 75%;
+  padding: 0.8em;
+  margin-right: 0.5em;
+  border: none;
+  border-radius: 8px;
+}
+
+.subscribe {
+  padding: 0.9em 1.5em;
+}
+
+.deal-title {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.deal-desc {
+  margin-bottom: 1em;
+  color: #27272799;
+}
+/* deal banner related styles ends*/
