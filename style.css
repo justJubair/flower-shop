@@ -327,7 +327,6 @@ button {
 
 .social-icons > i:hover {
   color: rgba(255, 255, 255, 0.40);
-  cursor: pointer;
 }
 
 .copyright {
